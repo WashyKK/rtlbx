@@ -44,8 +44,8 @@ IT4 = wkk_robot.ikine(T4, 'mask', [1 1 1 0 0 0]);
 t = [0:0.05:2]';
 
 % Generate the trajectory using linear segments with parabolic blends
-q = mtraj(@lspb, IT1, IT3, t);
-q1 = jtraj(IT3, IT4, t); % Convenience function that is equivalent to mtraj with tpoly -> A higher order polynomial (Order 5)
+q = mtraj(@lspb, IT3, IT4, t);
+q1 = jtraj(IT2, IT4, t); % Convenience function that is equivalent to mtraj with tpoly -> A higher order polynomial (Order 5)
 
 wkk_robot.plot(q, 'loop', 'trail', 'r');
 title('Robot Motion');
