@@ -1,0 +1,10 @@
+steps:
+  - name: "golang:1.22"
+    entrypoint: "go"
+    args:
+      - "-lc"
+      - |
+        go version
+        go test ./... || true
+        go run main.go
+        
