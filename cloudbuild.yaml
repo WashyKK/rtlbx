@@ -1,4 +1,4 @@
-serviceAccount: projects/PROJECT_ID/serviceAccounts/sapient-office-489011-g9.iam.gserviceaccount.com
+serviceAccount: projects/sapient-office-489011-g9/serviceAccounts/sapient-office-489011-g9.iam.gserviceaccount.com
 options:
   logging: CLOUD_LOGGING_ONLY
 steps:
