@@ -1,3 +1,6 @@
+serviceAccount: projects/PROJECT_ID/serviceAccounts/sapient-office-489011-g9.iam.gserviceaccount.com
+options:
+  logging: CLOUD_LOGGING_ONLY
 steps:
   - name: "golang:1.22"
     entrypoint: "go"
@@ -7,4 +10,3 @@ steps:
         go version
         go test ./... || true
         go run main.go
-        
