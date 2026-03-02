@@ -3,7 +3,7 @@ options:
   logging: CLOUD_LOGGING_ONLY
 steps:
   - name: "golang:1.22"
-    entrypoint: "go"
+    entrypoint: "bash"
     args:
       - "-lc"
       - |
