@@ -14,10 +14,12 @@ func main() {
 
 	fmt.Println("Current time:", time.Now().Format(time.RFC3339))
 
-	
+
 
 	
 
+
+	
 	fmt.Println("Time:", time.Now().Format(time.RFC3339))
 
 
