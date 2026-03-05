@@ -8,5 +8,6 @@ steps:
       - "-lc"
       - |
         which go
-        lserr
+        ls
+        exit 1
         echo "Running Go tests and main program..."
