@@ -8,5 +8,5 @@ steps:
       - "-lc"
       - |
         which go
-        ls
+        lserr
         echo "Running Go tests and main program..."
